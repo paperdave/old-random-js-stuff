@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-static-folders",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lets you add additional static folders",
   "author": "Dave Caruso",
   "license": "MIT",
