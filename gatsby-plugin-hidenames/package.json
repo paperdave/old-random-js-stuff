@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-plugin-hidenames",
+  "version": "1.0.0",
+  "description": "Hides the names of page components and stylesheet names.",
+  "author": "Dave Caruso",
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ]
+}

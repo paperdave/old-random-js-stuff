@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-plugin-static-folders",
+  "version": "1.0.0",
+  "description": "Lets you add additional static folders",
+  "author": "Dave Caruso",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.1"
+  },
+  "keywords": ["gatsby", "gatsby-plugin"]
+}

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "eslint-config-dave": "^1.0.0"
+  }
+}
