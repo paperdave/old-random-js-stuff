@@ -1,0 +1,8 @@
+{
+  "name": "material-ui-fast-ripple",
+  "version": "1.0.0",
+  "description": "Patches @material-ui/core/ButtonBase to speed the animation up a bit.",
+  "author": "Dave Caruso",
+  "license": "MIT",
+  "keywords": ["material-ui"]
+}
