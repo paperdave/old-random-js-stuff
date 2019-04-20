@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import TransitionGroup from 'react-transition-group/TransitionGroup';
-import clsx from 'clsx';
+import classnames from 'classnames';
 import withStyles from '@material-ui/core/styles/withStyles';
 import Ripple from '@material-ui/core/ButtonBase/Ripple';
 
@@ -266,7 +266,7 @@ export function patch({ DURATION = 200, DELAY_RIPPLE = 50 } = {}) {
           component='span'
           enter
           exit
-          className={clsx(classes.root, className)}
+          className={classnames(classes.root, className)}
           {...other}
         >
           {this.state.ripples}
