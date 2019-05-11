@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-dave",
+  "version": "2.0.0",
+  "description": "Simple custom eslint config.",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "author": "Dave Caruso",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  }
+}
