@@ -4,6 +4,7 @@ module.exports = {
     node: true,
     es6: true,
   },
+  parser: 'babel-eslint',
   extends: [
     'eslint:recommended',
   ],
@@ -95,7 +96,10 @@ module.exports = {
     'no-undef-init': 2,
     'no-undefined': 2,
     'no-use-before-define': [2],
-    'array-bracket-spacing': [2, 'never', { 'singleValue': true, 'objectsInArrays': true, 'arraysInArrays': true }],
+    'array-bracket-spacing': [
+      2,
+      'never',
+    ],
     'brace-style': [2, '1tbs', { 'allowSingleLine': true }],
     'no-array-constructor': 2,
     'no-continue': 2,

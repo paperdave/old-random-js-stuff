@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dave",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Simple custom eslint config.",
   "main": "index.js",
   "keywords": [
@@ -9,8 +9,15 @@
   ],
   "author": "Dave Caruso",
   "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }

@@ -27,7 +27,7 @@ module.exports = {
     'react/jsx-pascal-case': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-fragments': 'error',
-    'react/jsx-one-expression-per-line': ['error', 'single-child'],
+    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-tag-spacing': ['error', {
       'closingSlash': 'never',
       'beforeSelfClosing': 'always',
