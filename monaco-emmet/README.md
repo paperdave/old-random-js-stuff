@@ -2,6 +2,10 @@
 Emmet plugin for monaco editor, modified from
 [troy351/emmet-monaco](https://github.com/troy351/emmet-monaco).
 
+```sh
+npm i monaco-emmet
+```
+
 **Currently only supports HTML, Compatible with monaco-editor v0.12.0 and above**
 
 Source code is well commented if you want to figure out how it works.

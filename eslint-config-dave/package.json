@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dave",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "Simple custom eslint config.",
   "main": "index.js",
   "keywords": [

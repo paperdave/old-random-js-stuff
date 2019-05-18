@@ -7,7 +7,7 @@ it, see [the official page](https://gildas-lormeau.github.io/zip.js/index.html).
 
 ## Install
 ```
-npm i zip.js
+npm i zip-js-webpack
 ```
 
 There are four packaged versions of zip.js

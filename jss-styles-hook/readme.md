@@ -2,6 +2,11 @@
 Recreation of [react-jss](https://github.com/cssinjs/jss/tree/master/packages/react-jss) but using
 React's hooks API.
 
+Install:
+```sh
+npm i jss-styles-hook
+```
+
 So, instead of:
 ```jsx
 const styles = {

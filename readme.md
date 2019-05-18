@@ -5,6 +5,7 @@ Some JavaScript libraries are just perfect, except one small detail sets me off.
 - [ESLint: My Config](./eslint-config-dave/readme.md)
 - [Gatsby: Custom Static Folders](./gatsby-plugin-static-folders/readme.md)
 - [Gatsby: Hide Names in Build](./gatsby-plugin-hidenames/readme.md)
+- [Material UI: Animated Checkbox](./material-ui-animated-checkbox/readme.md)
 - [Material UI: Fast Ripple](./material-ui-fast-ripple/readme.md)
 - [Monaco Editor: Emmet](./monaco-emmet/readme.md)
 - [Webpack: Source Code Loader](./source-code-loader/readme.md)

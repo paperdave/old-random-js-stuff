@@ -1,6 +1,10 @@
 # material-ui-fast-ripple
 Patches `@material-ui/core/ButtonBase` to speed up the animation on ripples.
 
+```sh
+npm i material-ui-fast-ripple
+```
+
 To use, simply run this before importing any `@material-ui` packages, or anything that uses it.
 ```js
 import { patch } from 'material-ui-fast-ripple';
