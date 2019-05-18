@@ -5,6 +5,8 @@ Some JavaScript libraries are just perfect, except one small detail sets me off.
 - [ESLint: My Config](./eslint-config-dave/readme.md)
 - [Gatsby: Custom Static Folders](./gatsby-plugin-static-folders/readme.md)
 - [Gatsby: Hide Names in Build](./gatsby-plugin-hidenames/readme.md)
+- [JSS: Styles Hook](./jss-styles-hook/readme.md)
+- [LineOS: UI Kit](./lineos-ui/readme.md)
 - [Material UI: Animated Checkbox](./material-ui-animated-checkbox/readme.md)
 - [Material UI: Fast Ripple](./material-ui-fast-ripple/readme.md)
 - [Monaco Editor: Emmet](./monaco-emmet/readme.md)
