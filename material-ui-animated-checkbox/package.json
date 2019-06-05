@@ -1,8 +1,8 @@
 {
   "name": "material-ui-animated-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Animated Checkbox [unstable]",
-  "main": "Checkbox.js",
+  "main": "dist/index.js",
   "author": "Dave Caruso <dave@davecode.me>",
   "license": "MIT",
   "dependencies": {

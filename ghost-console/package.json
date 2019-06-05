@@ -1,0 +1,8 @@
+{
+  "name": "ghost-console",
+  "version": "1.0.0",
+  "description": "Browser console without the file and line number.",
+  "main": "index.js",
+  "keywords": ["console", "browser"],
+  "author": "Dave Caruso <dave@davecode.me>"
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script src="./index.js"></script>
+
+  <script>
+    ghostConsole.clear();
+    ghostConsole.log('Woah, no file and line number.');
+    ghostConsole.debug('Woah, no file and line number.');
+    ghostConsole.info('Woah, no file and line number.');
+    ghostConsole.warn('Woah, no file and line number.');
+    ghostConsole.error('Woah, no file and line number.');
+    ghostConsole.assert(true, 'Assert True');
+    ghostConsole.assert(false, 'Assert False');
+    ghostConsole.table([
+      {
+        first: 'René',
+        last: 'Magritte'
+      },
+      {
+        first: 'Chaim',
+        last: 'Soutine'
+      },
+      {
+        first: 'Henri',
+        last: 'Matisse'
+      }
+    ]);
+    ghostConsole.group('A Group');
+    ghostConsole.log('Group Contents');
+    ghostConsole.groupCollapsed('Another Group');
+    ghostConsole.log('Group Contents');
+    ghostConsole.groupEnd();
+    ghostConsole.groupEnd();
+    ghostConsole.time('name');
+    ghostConsole.timeEnd('name');
+    ghostConsole.count('Counter');
+    ghostConsole.count('Counter');
+    ghostConsole.count('Counter');
+  </script>
+</body>
+</html>
