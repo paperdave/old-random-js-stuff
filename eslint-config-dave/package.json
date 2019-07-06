@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-dave",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Simple custom eslint config.",
   "main": "index.js",
   "keywords": [
@@ -13,11 +13,12 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
+    "babel-eslint": "^11.0.0-beta.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^1.6.0"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3"
   }
 }

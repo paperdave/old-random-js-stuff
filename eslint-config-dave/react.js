@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     './index.js',
     'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
   ],
   parser: 'babel-eslint',
   parserOptions: {
@@ -14,6 +15,7 @@ module.exports = {
   plugins: [
     'react',
     'react-hooks',
+    'jsx-a11y',
   ],
   rules: {
     'react/prop-types': 'off',

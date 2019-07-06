@@ -1,6 +1,8 @@
 # source-code-loader
 Loads the source of a file, making sure to skip other loaders.
 
+**THIS IS NOT ACTUALLY REQUIRED, AS YOU CAN JUST USE `!!RAW-LOADER!./filename.js` TO DISABLE OTHER LOADERS**
+
 ```sh
 npm i source-code-loader
 ```

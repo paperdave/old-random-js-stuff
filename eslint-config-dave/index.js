@@ -24,7 +24,10 @@ module.exports = {
       'error',
       'always',
     ],
-    'no-unused-vars': 'warn',
+    'no-unused-vars': [
+      'warn',
+      { 'vars': 'all', 'args': 'after-used', 'ignoreRestSiblings': false },
+    ],
     'max-len': [
       'warn',
       {
@@ -34,9 +37,9 @@ module.exports = {
         'ignoreComments': false,
         'ignoreTrailingComments': false,
         'ignoreStrings': false,
-        'ignoreUrls': false,
-        'ignoreTemplateLiterals': false,
-        'ignoreRegExpLiterals': false,
+        'ignoreUrls': true,
+        'ignoreTemplateLiterals': true,
+        'ignoreRegExpLiterals': true,
       },
     ],
     'comma-style': 'error',
@@ -130,5 +133,7 @@ module.exports = {
     'no-var': 2,
     'prefer-const': 2,
     'prefer-spread': 2,
+    'space-after-keywords': ['error', 'always'],
+    'space-before-keywords': ['error', 'always'],
   },
 };

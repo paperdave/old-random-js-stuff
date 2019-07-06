@@ -10,5 +10,5 @@ Some JavaScript libraries are just perfect, except one small detail sets me off.
 - [Material UI: Animated Checkbox](./material-ui-animated-checkbox/readme.md)
 - [Material UI: Fast Ripple](./material-ui-fast-ripple/readme.md)
 - [Monaco Editor: Emmet](./monaco-emmet/readme.md)
-- [Webpack: Source Code Loader](./source-code-loader/readme.md)
+- [[Deprecated] Webpack: Source Code Loader](./source-code-loader/readme.md)
 - [zip.js: CommonJS / Webpack Version](./zip-js-webpack/readme.md)

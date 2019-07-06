@@ -1,7 +1,7 @@
 {
   "name": "source-code-loader",
   "main": "./source-code-loader.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loads a file's source similar to raw-loader, but making sure other loaders do not run.",
   "author": "Dave Caruso",
   "license": "MIT"
