@@ -1,0 +1,8 @@
+{
+  "name": "easy-web-input",
+  "version": "1.0.0",
+  "description": "An easier way to query for input in web games.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Dave Caruso <dave@davecode.me>"
+}

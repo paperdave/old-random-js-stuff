@@ -1,5 +1,9 @@
-# Various JavaScript Plugins
+# Various JavaScript Stuff
 Some JavaScript libraries are just perfect, except one small detail sets me off. A missing feature, visual improvement, or whatever i can't do with a library, i try to fix it. This repository is a collection of custom made, simple plugins to fix the small things.
+
+## Libraries
+- [easy-web-input](./easy-web-input/readme.md)
+- [ghost-console](./ghost-console/readme.md)
 
 ## Plugins
 - [ESLint: My Config](./eslint-config-dave/readme.md)
