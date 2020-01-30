@@ -1,0 +1,8 @@
+{
+  "name": "dath",
+  "version": "1.0.1",
+  "description": "Degree Mathematics",
+  "main": "dath.js",
+  "types": "./types.d.ts",
+  "author": "Dave Caruso"
+}
