@@ -11,11 +11,8 @@ npm install easy-web-input
 import {
   keyboard,
   mouse,
-  updateInputManager
+  inputManagerEndFrame
 } from 'easy-input';
-
-// every frame of your game logic, call the update function
-updateInputManager();
 
 // inside of your update logic, you can query any keyboard button by name
 if(keyboard.d) {
@@ -28,6 +25,10 @@ if(keyboard.dPressed) {
 if(mouse.left) {
   // my left mouse is down
 }
+
+
+// at the end of every frame of your game logic, call the update function
+inputManagerEndFrame();
 ```
 
 ```js
@@ -37,11 +38,18 @@ if (Input.keyboard.dPressed) {
 
 }
 
+Input.inputManagerEndFrame();
 ```
 
 ## Keyboard API
 What button they are should be self explanatory. Two things should be noted: some symbols aren't present because they are modifiers of others (the "greater than" is represented as "comma"), and that you can add "Pressed" or "Released" to any key to get one-frame pulses on their respective events.
 
+There are also three other properties on `keyboard`:
+- string: what a user typed during that frame. Use for virtual text fields.
+- repeatKeys: defaults to false, set to true to allow holding a key to output multiple pressed events
+- allowShortcuts: defaults to true, set to false to disallow many common browser shortcuts.
+
+All keys:
 - ArrowLeft
 - ArrowRight
 - ArrowDown
@@ -162,9 +170,9 @@ There are four numeric properties
 - **x**: The X position of the cursor.
 - **y**: The Y position of the cursor.
 - **scrollX**: The horizontal scrolling amount in the current frame. 
-- **scrollY**: The vertical scrolling amount in the current frame.
+- **scrollY**: The vertical scrolling amount in the current frame. One scroll down on a regular mouse scroll wheel is equal to 1 scrollY.
 
-On trackpads in certain browsers the scroll will be very small, as to allow much smoother scrolling.
+On trackpads in certain browsers the scroll will be very small, but many over time, to allow much smoother scrolling.
 
 ### Mouse Buttons
 Similar to the keyboard, there are three mouse buttons you can check for
