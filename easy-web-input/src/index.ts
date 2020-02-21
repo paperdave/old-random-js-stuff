@@ -157,3 +157,6 @@ function reset() {
 window.addEventListener('blur', reset);
 
 reset();
+
+// bug fix for chrome on windows and some other things. Cancel the middle mouse scroll.
+document.body.onmousedown = function(e) { if (e.button === 1) return false; }

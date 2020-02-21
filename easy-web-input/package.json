@@ -1,6 +1,6 @@
 {
   "name": "easy-web-input",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Starter for a library written in TypeScript using rollup, and an extra webpack config for development.",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
@@ -24,6 +24,9 @@
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
   },
-  "files": ["dist","readme.md"],
+  "files": [
+    "dist",
+    "readme.md"
+  ],
   "dependencies": {}
 }
